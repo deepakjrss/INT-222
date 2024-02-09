@@ -20,3 +20,4 @@ fs.open('input.txt','r+',function(err,fd){
         }
     });
 });
+//
