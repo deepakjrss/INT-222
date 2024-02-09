@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Javascript if</h2>
+    <p id="demo"></p>
+    <script>
+   
+    if(new Date().getHours()<12){
+         document.getElementById("demo").innerHTML="Good Morning!";    }
+     else if (new Date().getHours()>12 && new Date().getHours()<17) {
+         document.getElementById("demo").innerHTML="Good Afternoon!";    }
+     else{
+        document.getElementById("demo").innerHTML="Good Evening!";    }
+    
+    </script>
+</body>
+</html>
